@@ -12,3 +12,8 @@ venv/
 # 系统
 Thumbs.db
 .DS_Store
+
+# Word 临时锁文件 / 日志 / 流水线中间产物
+~$*.docx
+pip*.log
+output/
